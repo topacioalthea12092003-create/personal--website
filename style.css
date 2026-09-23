@@ -255,11 +255,79 @@ body {
     color: var(--purple-dark);
     border-bottom-color: var(--purple-dark);
 }
-
-.timeline-block {
-    position: relative;
-    padding-left: 1.8rem;
+/* Education & Experience Design */
+.education,
+.experience {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.education h2,
+.experience h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Table design */
+.education table,
+.experience table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.education th,
+.experience th {
+    background: #6a0dad;
+    color: white;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 17px;
+}
+
+/* Content */
+.education td,
+.experience td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+/* Column width */
+.education th:first-child,
+.education td:first-child,
+.experience th:first-child,
+.experience td:first-child {
+    width: 35%;
+}
+
+.education th:last-child,
+.education td:last-child,
+.experience th:last-child,
+.experience td:last-child {
+    width: 65%;
+}
+
+/* Bold titles */
+.education td strong,
+.experience td strong {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Hover effect */
+.education tr:hover,
+.experience tr:hover {
+    background: #f8f1ff;
+}
+Compose
+Write to Althea Topacio
+
+
 
 .timeline-block::before {
     content: '';
